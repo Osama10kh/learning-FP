@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning</title>
+    <link rel="stylesheet" href="./home/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <h1 class="h1-title">active learning</h1>
+        </a>
+        <nav class="navBar">
+            <ul class="nav-ul">
+                <li class="nav-li"><a href="./inheritance/inheritance.html" class="nav-a">inheritance</a></li>
+                <li class="nav-li"><a href="" class="nav-a">position</a></li>
+                <li class="nav-li"><a href="" class="nav-a">display</a></li>
+                <li class="nav-li"><a href="" class="nav-a">animation</a></li>
+                <li class="nav-li"><a href="" class="nav-a add">add</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="h2-title">about <span class="our-span">our</span> website</h2>
+
+        <div class="btn-cont">
+            <button class="btn watch-btn" onclick="displayVideo()">watch</button>
+            <button class="btn read-btn" onclick="displayParag()">read</button>
+        </div>
+
+        <section class="about-us-sec">
+            <div class="video-cont">
+                <video class="video" width="970px" height="550px" autoplay controls>
+                    <source src="./video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <article class="about-us-art">
+                <p class="about-us-p">
+                    our website helps those who want to learn the basics of front-end development by understanding the
+                    concept without coding.
+                    for now, we are focusing on CSS concepts but we are planning to add javaScript and HTML.
+                </p>
+
+            </article>
+        </section>
+    </main>
+
+    <script src="./home/app.js"></script>
+</body>
+
+</html>

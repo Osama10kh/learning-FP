@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance</title>
+    <link rel="stylesheet" href="./inheritance.css">
+    <script src="https://kit.fontawesome.com/9e5d1913ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 class="heading1">Inheritance</h1>
+
+    <h2 class="rightHeading3">parent (body tag)</h2>
+    <h3 class="firstChild" id="fCH">h3 tag (child) <i class="fas fa-child fa-2x"></i></h3>
+    <p class="secondChild" id="sCH">p tag (child) <i class="fas fa-child fa-2x"></i></p>
+    <a class="thirdChild" id="tCH" href="#">a tag (child) <i class="fas fa-child fa-2x"></i></a>
+    <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+    <h2 class="leftHeading3"> parent (div tag) </h2>
+    <div class="container">
+        <p> &lt; div tag (parent) <i class="fas fa-male fa-2x"></i> &gt;</p>
+        <h3 class=" child">h3 tag (child) <i class="fas fa-child fa-2x"></i> </h3>
+        <p class=" child">p tag (child) <i class="fas fa-child fa-2x"></i></p>
+        <a class=" child" href="#">a tag (child) <i class="fas fa-child fa-2x"></i></a>
+        <br>
+        <p> &lt; /div tag (parent) <i class="fas fa-male fa-2x"></i> &gt;</p>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------ -->
+
+    <form class="parentColor">
+        <label for="colorPicker">change the color of <b>parent (div)</b> </label>
+        <input class="colorPicker" id="colorPicker" type="color">
+    </form>
+    <p class="note"><span class="fwNote">note:</span> a-tag color will not change because it's got a color(#551a8b),
+        other children
+        will inherit the color</p>
+    <!-- --------------------------------------------------------------------------------------------------------------     -->
+
+    <p class="className">.class name {</p>
+    <form class="tagColor">
+        <label class="label" for="colorPicker2"> color :</label>
+        <input id="colorPicker2" type="color">
+    </form>
+    <span class="closeTag">};</span>
+
+    <p class="note2"><span class="fwNote">note:</span> if they dont get a color property, they will inherit from the
+        body tag (their parent) </p>
+    <!-- ---------------------------------------------------------------------------------     -->
+
+    <form class="bodyColor">
+        <label class="label" for="colorPicker3"> body color :</label>
+        <input id="colorPicker3" type="color">
+    </form>
+
+    <script src="./inheritance.js"></script>
+</body>
+
+</html>

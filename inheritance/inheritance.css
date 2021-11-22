@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,500;1,400;1,700&display=swap");
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+.heading1 {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.firstChild,
+.secondChild,
+.thirdChild,
+.rightHeading3 {
+  position: absolute;
+  font-weight: bolder;
+}
+
+.rightHeading3 {
+  top: 50px;
+  right: 10px;
+}
+
+.firstChild {
+  top: 140px;
+  right: 10px;
+  font-size: large;
+}
+
+.secondChild {
+  top: 220px;
+  right: 10px;
+  font-size: large;
+}
+
+.thirdChild {
+  top: 310px;
+  right: 10px;
+  font-size: large;
+}
+
+/* div tag---------------------------------------------------------- */
+
+.leftHeading3 {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+
+.container {
+  position: absolute;
+  top: 140px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.child {
+  position: relative;
+  left: 100px;
+  font-size: large;
+}
+
+a {
+  text-decoration: none;
+}
+
+.rightHeading3,
+.leftHeading3 {
+  background-color: #2f86a6;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.parentColor {
+  position: relative;
+  top: 400px;
+  font-size: larger;
+}
+
+.fwNote {
+  background-color: #faff00;
+  padding: 3px;
+  font-weight: bolder;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.note {
+  position: relative;
+  top: 450px;
+  width: 500px;
+  line-height: 1.6;
+}
+
+.className {
+  position: absolute;
+  right: 80px;
+  top: 400px;
+  font-size: larger;
+}
+
+.label {
+  font-size: larger;
+}
+.tagColor {
+  position: absolute;
+  right: 30px;
+  top: 470px;
+}
+
+.closeTag {
+  position: absolute;
+  right: 70px;
+  top: 520px;
+  font-size: larger;
+}
+
+.note2 {
+  position: absolute;
+  top: 560px;
+  right: 10px;
+  width: 500px;
+  line-height: 1.6;
+}
+
+.bodyColor {
+  position: absolute;
+  right: 44%;
+  top: 20%;
+  font-size: larger;
+}
